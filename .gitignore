@@ -1,0 +1,144 @@
+Criado por https://www.toptal.com/developers/gitignore/api/node
+Edite em https://www.toptal.com/developers/gitignore?templates
+
+? Node ?
+? Logs (em Inglês)
+Logs
+?.log
+npm-debug.log
+yarn-debug.log (em Inglês)
+yarn-error.log
+lerna-debug.log
+.pnpm-debug.log
+
+Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+report [0-9]o.[0-9] [0-9]o.[0-99].[0-99] ?.json
+
+? Dados de tempo de execução
+pidsTradução
+? .pid
+? .seed
+?.pid.lock
+
+Diretório para libs instrumentados gerados pela jscoverage/JSCover
+lib-covTradução
+
+Diretório de cobertura usado por ferramentas como istanbul
+Cobertura
+?.lcovTradução
+
+? Cobertura do teste de nic
+.nyc_outputTradução
+
+Armazenamento intermediário da Grunt (https://gruntjs.com/criagem-plugins-storing-sak-files)
+.gruntTradução
+
+Diretório de dependência de Bower (https://bower.io/)
+bower_components (em Inglês)
+
+- configuração do node-waf
+.lock-wscriptTradução
+
+Compilação de addons binários (https://nodejs.org/api/addons.html)
+build/Release (em versão)
+
+? Diretórios de dependência
+node_modules/
+jspm_pacoagens/
+
+Diretório de dependência Snowpack (https://snowpack.dev/)
+web_modules/
+
+? Cache TypeScript
+?.tsbuildinfo
+
+Diretório de cache npm opcional
+.npm
+
+- Opcional eslint cache
+.eslintcacheTradução
+
+- Cache de stylelint opcional
+.stylelintcacheTradução
+
+- Cache de micropau
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+História opcional da REPL
+.node_repl_history (em Português)
+
+- Saída de 'npm pack'
+?.tgz (em Inglês)
+
+- Yarn Integrity arquivo
+.yarn-integridade
+
+- dotenv arquivos variáveis de ambiente
+.env (em Português)
+.env.desenvolvimento.local
+.env.test.localTradução
+.env.production.local (em Inglês)
+.env.local (em Inglês)
+
+cache parcel-bundler (https://parceljs.org/)
+.cache em Inglês
+.parcel-cache
+
+- Next.js build output
+.next
+Para fora.
+
+Nuxt.js build / gerar saída
+.nuxt (em Inglês)
+Dist (trata)
+
+- Arquivos Gatsby
+.cache /
+Comentário na linha pública se o seu projeto usa Gatsby e não Next.js
+https://nextjs.org/blog/next-9-1-public-directory-support
+? público
+
+- vuepress build output
+.vuepress/dist em Inglês
+
+diretório vuepress v2.x temp e cache
+.temp (em Inglês)
+
+Docusaurus cache e arquivos gerados
+.docusaurusTradução
+
+- Diretórios sem servidor
+. sem reservas /
+
+? FuseBox cache em Inglês
+.fusebox/
+
+- DynamoDB Arquivos locais
+.dynamodb / (em Inglês)
+
+Arquivo de porta TernJS
+.tern-port
+
+Armazena versões VSCode usadas para testar extensões VSCode
+.vscode-testTradução
+
+? fio v2
+.yarn / cacheTradução
+.yarn / unplugged
+.yarn/build-state.yml (em inglês)
+.yarn/install-state.gz
+.pnp.
+
+? Node Patch ?
+- Diretórios Serverless Webpack
+.webpack / versão
+
+- Cache de stylelint opcional
+
+SvelteKit build / gerar saída
+.svelte-kitTradução
+
+Fim de https://www.toptal.com/developers/gitignore/api/node
