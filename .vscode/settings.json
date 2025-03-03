@@ -1,8 +1,9 @@
+
 {
   // VS Code
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   // "editor.fontFamily": "Liga Droid Sans Mono",
@@ -16,8 +17,8 @@
     120,
   ],
   "editor.minimap.enabled": false,
-  "editor.fontSize": 20,
-  "debug.console.fontSize": 18,
+  "editor.fontSize": 16,
+  "debug.console.fontSize": 15,
   "toggleFileEventLogging": true,
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": true,
@@ -26,8 +27,8 @@
   "diffEditor.ignoreTrimWhitespace": false,
   // Auto fix on save
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
   },
   // Terminal
   "terminal.integrated.copyOnSelection": true,
@@ -72,9 +73,9 @@
   // Django
   "files.associations": {
     "*.html": "html",
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    "**/templates /*.html": "django-html",
+    "**/templates /*": "django-txt",
+    "**/requirements{ /**,*}.{txt,in}": "pip-requirements"
   },
   // AutoDocstring extension
   "autoDocstring.docstringFormat": "google",
@@ -87,7 +88,7 @@
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
     "python": "python3 -u",
-    "TypeScript": "npx ts-node --files"
+    "TypeScript": "clear && npx ts-node --files --translator-only"
   },
   // Material icon theme
   "material-icon-theme.hidesExplorerArrows": true,
