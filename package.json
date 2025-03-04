@@ -6,7 +6,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts node --loader ts-node/esm",
-    "dev": "ts-node --loader ts-node/esm index.ts",
+    "dev": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +25,13 @@
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-prettier": "^5.2.3",
     "prettier": "^3.5.3",
+    "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
   }
 }

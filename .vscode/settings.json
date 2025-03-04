@@ -3,7 +3,7 @@
   // VS Code
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Monokai",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   // "editor.fontFamily": "Liga Droid Sans Mono",
@@ -86,9 +86,10 @@
   "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.runInTerminal": true,
+
   "code-runner.executorMap": {
     "python": "python3 -u",
-    "TypeScript": "clear && npx ts-node --files --translator-only"
+    "TypeScript": "clear && npx ts-node --files --tranpile-only"
   },
   // Material icon theme
   "material-icon-theme.hidesExplorerArrows": true,
