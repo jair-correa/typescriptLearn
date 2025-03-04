@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/jair-correa/typescriptLearn#readme",
   "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/validator": "^13.12.2",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-prettier": "^5.2.3",
@@ -32,6 +34,7 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "validator": "^13.12.0"
   }
 }
