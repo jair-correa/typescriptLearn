@@ -6,8 +6,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts node --loader ts-node/esm",
-    "dev": "webpack -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
   },
   "repository": {
     "type": "git",
