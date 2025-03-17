@@ -23,4 +23,3 @@ db1.connect();
 
 const db2 = Database.getDatabase("localhost", "root", "123456");
 db2.connect();
-
